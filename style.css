@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    padding: 2px;
+    text-align: center;
+    margin: 1rem 0px;
+}
+
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+.tribute .words{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.tribute img {
+    max-width: 100%;
+  }
+
+  .biography{
+    margin: 2rem;
+  }
+ .biography h1{
+   margin-bottom: 10px;
+   font-size: 3rem;
+   line-height: 1.2;
+  }
+
+  .biography p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
